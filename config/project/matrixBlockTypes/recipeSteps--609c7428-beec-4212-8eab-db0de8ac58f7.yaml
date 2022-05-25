@@ -1,0 +1,92 @@
+field: 446ec5ee-aff3-4010-9b4d-4b94119b62c7 # Recipe Content
+fieldLayouts:
+  a4e446d7-4334-4de9-bdca-2ccf9f37c5fb:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7c0ba3f4-c59d-4880-bd15-5abdc19238c8 # Steps Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bd7dc58d-228c-4306-8149-2fc93367cc5d
+            warning: null
+            width: 100
+          -
+            fieldUid: 84f2c719-c84a-4e7c-b2fd-9bd8e989ca81 # Steps Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43d88bed-9a55-4a42-92a9-9a1914388f73
+            warning: null
+            width: 100
+        name: Content
+        uid: 3b89c6b7-fccf-4e74-b88e-e6c75ad8d5f4
+fields:
+  7c0ba3f4-c59d-4880-bd15-5abdc19238c8: # Steps Title
+    columnSuffix: axvrpbtq
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsTitle
+    instructions: null
+    name: 'Steps Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  84f2c719-c84a-4e7c-b2fd-9bd8e989ca81: # Steps Content
+    columnSuffix: kgcfzctu
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsContent
+    instructions: null
+    name: 'Steps Content'
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Step Instructions'
+                -
+                  - handle
+                  - stepInstructions
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - multiline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: recipeSteps
+name: 'Recipe Steps'
+sortOrder: 4

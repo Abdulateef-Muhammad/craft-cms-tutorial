@@ -1,0 +1,50 @@
+field: 446ec5ee-aff3-4010-9b4d-4b94119b62c7 # Recipe Content
+fieldLayouts:
+  161852c6-6d2e-4f36-8d71-848701abe4d0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 930594d4-9a1d-4ce1-94c0-691e8583a531 # Body Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e79fd9fe-2321-416f-90e4-00e1ee4c2556
+            warning: null
+            width: 100
+        name: Content
+        uid: b052db2e-0317-4552-9594-f495143b33bc
+fields:
+  930594d4-9a1d-4ce1-94c0-691e8583a531: # Body Content
+    columnSuffix: wywqozdr
+    contentColumnType: text
+    fieldGroup: null
+    handle: bodyContent
+    instructions: null
+    name: 'Body Content'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: recipeCopy
+name: 'Recipe Copy'
+sortOrder: 3

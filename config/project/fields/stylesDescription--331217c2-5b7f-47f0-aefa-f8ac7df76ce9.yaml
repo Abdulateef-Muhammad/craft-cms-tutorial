@@ -1,0 +1,19 @@
+columnSuffix: yqgxgjkh
+contentColumnType: text
+fieldGroup: c19a42f1-0e09-40d1-8f51-7fd3c8d9cfef # Styles
+handle: stylesDescription
+instructions: null
+name: 'Styles Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

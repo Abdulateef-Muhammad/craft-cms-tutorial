@@ -1,0 +1,126 @@
+dateModified: 1653475444
+elementSources:
+  craft\elements\Category:
+    -
+      disabled: false
+      key: 'group:79ef9e1f-4e2c-4c9f-bcad-c32de4fa6a9f' # Drink Styles
+      tableAttributes:
+        - link
+        - uri
+        - 'field:331217c2-5b7f-47f0-aefa-f8ac7df76ce9' # Styles Description
+      type: native
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:2dc95fd7-9d33-489d-97ed-677f71655898' # Drinks
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+        - 'field:2dc8e307-8525-4259-978f-8d850f7072e8' # Drink image
+      type: native
+    -
+      key: 'section:9f84328c-d83b-4a61-acdf-b1a9f26dfce6' # News
+      type: native
+email:
+  fromEmail: abdulateef@gmail.com
+  fromName: blog.test
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blog:
+    hasUrls: true
+    name: Blog
+    settings:
+      path: '@web/assets/blog'
+    type: craft\fs\Local
+    url: '@webroot/assets/blog'
+  drinkimage:
+    hasUrls: true
+    name: drinkImage
+    settings:
+      path: '@webroot/images/uploads/drinks'
+    type: craft\fs\Local
+    url: '@web/images/uploads/drinks'
+  drinks:
+    hasUrls: true
+    name: Drinks
+    settings:
+      path: '@webroot/images/uploads/drinks'
+    type: craft\fs\Local
+    url: '@web/assets/uploads/drinks'
+meta:
+  __names__:
+    1d5d7242-5fce-45f6-9699-8b9b6b85fe05: HomePage # HomePage
+    2c2d8dee-ad22-4ab5-bebd-1659537be168: 'Drink Style' # Drink Style
+    2dc8e307-8525-4259-978f-8d850f7072e8: 'Drink image' # Drink image
+    2dc95fd7-9d33-489d-97ed-677f71655898: Drinks # Drinks
+    3a3f5d68-7d84-42fb-8c56-b1b08ef58c2a: News # News
+    5db0d924-ec04-4c77-aa05-43c369b92b47: drinks # drinks
+    7c0ba3f4-c59d-4880-bd15-5abdc19238c8: 'Steps Title' # Steps Title
+    7e0a6702-b8ce-4fd4-a716-29a8e29e9e89: Drink # Drink
+    9f84328c-d83b-4a61-acdf-b1a9f26dfce6: News # News
+    24c3650c-740c-4a73-aa14-a4838838e894: Text # Text
+    35c15551-f52b-4d46-8384-1a86f5c8f8eb: blog.test # blog.test
+    47c58c52-cf2c-4052-b844-95d067db83bf: 'Tip Content' # Tip Content
+    48ea7515-008e-4a54-b331-f8ba00db3fa3: Ingredients # Ingredients
+    60f68e37-4450-4637-9aa6-cd762c626e09: Subtitle # Subtitle
+    66a75247-d770-4a30-901e-61b2b3117ec0: News # News
+    76ba95ba-fdfd-453d-9286-4d7bf9cbaeb5: HomePage # HomePage
+    79ef9e1f-4e2c-4c9f-bcad-c32de4fa6a9f: 'Drink Styles' # Drink Styles
+    84f2c719-c84a-4e7c-b2fd-9bd8e989ca81: 'Steps Content' # Steps Content
+    87d261e7-02cd-4e73-8c37-3c03453b8eac: 'Image Caption' # Image Caption
+    94d318b6-0f08-4f6b-8a53-7ee03efc7904: '840x200 Thumb' # 840x200 Thumb
+    232d144a-5651-4580-9eab-3b7443778864: Common # Common
+    446ec5ee-aff3-4010-9b4d-4b94119b62c7: 'Recipe Content' # Recipe Content
+    609c7428-beec-4212-8eab-db0de8ac58f7: 'Recipe Steps' # Recipe Steps
+    841b1c95-f0c0-4823-9a16-d8d4202a48d7: 'Public Schema' # Public Schema
+    985e2c92-fa74-4884-a511-dbe96cca355c: Image # Image
+    2464c8e3-47b7-46b4-8ea4-38aa941ce23e: 'News Body' # News Body
+    4573f8e8-4efd-43b6-a0dc-bcbd389b998a: 'Page Intro' # Page Intro
+    4734c74d-7cf0-4303-8ee0-121dafa7481a: 'About Crafty Coffee' # About Crafty Coffee
+    331217c2-5b7f-47f0-aefa-f8ac7df76ce9: 'Styles Description' # Styles Description
+    791491a0-73fd-489c-ac8a-eec2fa7fe8d6: About # About
+    930594d4-9a1d-4ce1-94c0-691e8583a531: 'Body Content' # Body Content
+    6597273a-2430-4ae0-908a-a99ce0a37dcc: Drinks # Drinks
+    a2df9887-05e2-432f-a020-eb58a337372f: blog.test # blog.test
+    a9ac45da-6d68-4866-be34-04910e22abff: 'Recipe Tip' # Recipe Tip
+    a2550b36-88e3-4ac0-982d-f7a8897736bd: Image # Image
+    b6d6f3a0-f0f4-413f-a0c3-8dc7e7f908f8: Recipes # Recipes
+    c9bb32c9-1501-4d69-8f8f-691506aafbec: 'About Crafty Coffee' # About Crafty Coffee
+    c19a42f1-0e09-40d1-8f51-7fd3c8d9cfef: Styles # Styles
+    cfe82d92-4cbb-4e92-b4bf-5ffa5b41c446: Introduction # Introduction
+    d5e2b9c0-5808-45a6-bee4-aacb1a2c3155: 'Page Copy' # Page Copy
+    da4b71b5-99bd-4c50-bd8a-c0d57377fb7b: Recipes # Recipes
+    df390bca-6475-47e7-ad22-ffed845f4c46: 'Recipe Ingredients' # Recipe Ingredients
+    dfa07290-cf52-4592-b159-034502c3835d: 'Recipe Image' # Recipe Image
+    e0facf09-85d5-48e9-a9f0-7dea8495e212: Excerpt # Excerpt
+    ea7ecb9a-00be-4c74-9c11-fd796cbfc383: 'Recipe Copy' # Recipe Copy
+    edb4891f-ad05-4dff-9ab2-17ba6001c21d: Recipes # Recipes
+    f57baedc-d9b7-44a2-aea7-c1c503a66c5f: 'Drink Recipe' # Drink Recipe
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: blog.test
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,19 @@
+columnSuffix: sycmevwx
+contentColumnType: text
+fieldGroup: 6597273a-2430-4ae0-908a-a99ce0a37dcc # Drinks
+handle: introduction
+instructions: 'A short sentence at the top of drink page.'
+name: Introduction
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,19 @@
+columnSuffix: wisolpbc
+contentColumnType: text
+fieldGroup: 791491a0-73fd-489c-ac8a-eec2fa7fe8d6 # About
+handle: pageIntro
+instructions: null
+name: 'Page Intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

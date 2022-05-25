@@ -1,0 +1,59 @@
+fieldLayouts:
+  490b5ae3-ff8e-4d6e-9bd7-54963538b46f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: 'Recipe Name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: faa2f02b-7792-4445-8a10-9ba00cae8f46
+            warning: null
+            width: 100
+          -
+            fieldUid: 2c2d8dee-ad22-4ab5-bebd-1659537be168 # Drink Style
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18a4ef7a-322e-4bb3-9638-c299a9dd8c1c
+            warning: null
+            width: 100
+          -
+            fieldUid: 446ec5ee-aff3-4010-9b4d-4b94119b62c7 # Recipe Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b139d9b-737e-47ac-8df0-7f472a767469
+            warning: null
+            width: 100
+        name: Content
+        uid: 751c4be1-d0d4-4f66-b92d-0276b5c2fc0a
+handle: recipes
+hasTitleField: true
+name: Recipes
+section: da4b71b5-99bd-4c50-bd8a-c0d57377fb7b # Recipes
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
